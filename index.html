@@ -139,7 +139,12 @@
         bgMusic.loop = true; bgMusic.volume = 1.0;
 
         const loader = new THREE.TextureLoader();
-        const photoFiles = ['./lianiee2.jpg', './linaniee2.jpg', './linaniee3.png', './linaniee4.jpg', './linaniee5.jpg'];
+        const photoFiles = [
+            './lianiee/lianiee2.jpg',
+            './lianiee/lianiee3.png',
+            './lianiee/lianiee4.jpg',
+            './lianiee/lianiee5.jpg'
+        ];
         const photoTextures = [];
         photoFiles.forEach((f, i) => photoTextures[i] = loader.load(f));
 
